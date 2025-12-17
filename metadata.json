@@ -1,0 +1,5 @@
+{
+  "name": "BuvetteClub Offline",
+  "description": "Application de gestion de bar associatif hors-ligne. Gestion des clients, ardoises, stocks et historique des transactions avec statistiques financières.",
+  "requestFramePermissions": []
+}
