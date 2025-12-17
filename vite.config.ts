@@ -9,10 +9,16 @@ export default defineConfig(({ mode }) => {
         port: 3000,
         host: '0.0.0.0',
       },
+    // AJOUTEZ CETTE SECTION ICI
+      preview: {
+        port: 3000,
+        allowedHosts: ['buvetteclub1.onrender.com']
+      },
       plugins: [react()],
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
+          
       },
       resolve: {
         alias: {
